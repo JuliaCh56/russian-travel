@@ -1,0 +1,9 @@
+.lead {
+  padding: calc(48/1024*100%) 0 calc(92/1024*100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+  
+}
