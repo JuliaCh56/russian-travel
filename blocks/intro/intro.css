@@ -1,0 +1,7 @@
+.intro {
+  padding: 0 0 calc(92/1024*100%);
+  display: flex;
+  margin: 0;
+  margin-left: calc(48/1021*100%);
+  flex-direction: column;
+}
