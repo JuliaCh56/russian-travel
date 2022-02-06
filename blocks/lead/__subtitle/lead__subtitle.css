@@ -14,12 +14,6 @@
   }
 }
 
-/* @media screen and (max-width: 767px) and (min-width: 321px) {
-  .lead__subtitle {
-      margin-bottom: 56px;
-      font-size: 30px;
-    }
-} */
 
 @media screen and (max-width: 320px) {
   .lead__subtitle {
