@@ -1,7 +1,6 @@
 .header {
   max-width: 100%;
   margin: 0;
-  margin-top: 3%;
   display: flex;
   justify-content: space-between;
   padding: calc(28/1024*100%) calc(48/1024*100%) 0;
@@ -22,8 +21,6 @@
 
 @media screen and (max-width: 320px) {
   .header  {
-    padding-top: calc(16/320*100%);
-    padding-right: calc(16/320*100%);
-    padding-left: calc(16/320*100%);
+    padding-top: calc(16/320*100%) calc(16/320*100%) 0;
   }
 }

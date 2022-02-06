@@ -6,3 +6,16 @@
   max-width: 690px;
   margin: 40px 0 33px;
 }
+
+@media screen and (max-width: 767px) and (min-width: 321px) {
+  .intro__title {
+    max-width: 720px;
+  }
+}
+
+
+@media screen and (max-width: 320px)  {
+  .intro__text {
+    margin-bottom: 34px;
+  }
+}

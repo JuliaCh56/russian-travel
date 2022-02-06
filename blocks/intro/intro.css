@@ -2,6 +2,30 @@
   padding: 0 0 calc(92/1024*100%);
   display: flex;
   margin: 0;
-  margin-left: calc(48/1021*100%);
+  padding-left: calc(48/1021*100%);
   flex-direction: column;
+  
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    padding-bottom: calc(92/1280*100%);
+    padding-left: calc(148/1280*100%);
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 321px) {
+  .intro {
+    padding-bottom: calc(88/768*100%);
+    padding-left: calc(24/768*100%);
+    padding-right: calc(24/768*100%);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    padding-bottom: calc(64/320*100%);
+    padding-left: calc(16/320*100%);
+    padding-right: calc(16/320*100%);
+  }
 }

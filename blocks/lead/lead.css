@@ -6,3 +6,21 @@
   margin: 0 auto;
   flex-direction: column;
 }
+
+@media screen and (min-width: 1280px) {
+  .lead {
+      padding: 56px 148px 114px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 321px)  {
+  .lead {
+  padding: 48px 0 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead {
+    padding: 48px 0 64px;
+  }
+}

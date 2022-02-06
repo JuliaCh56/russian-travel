@@ -3,6 +3,33 @@
   margin: 0;
   max-width: 300px;
   max-height: 225px;
-  border-style: none;
   object-fit: cover;
+}
+
+@media screen and (min-width: 1280px) {
+  .photo-grid__item {
+    max-width: 284px;
+    max-height: 213px;
+  }
+}
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .photo-grid__item {
+    max-width: 352px;
+    max-height: 264px;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 361px) {
+  .photo-grid__item {
+    max-width: minmax(288px 352px);
+    max-height:  minmax(216px 264px);
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .photo-grid__item {
+    max-width: 288px;
+    max-height: 216px;
+  }
 }
