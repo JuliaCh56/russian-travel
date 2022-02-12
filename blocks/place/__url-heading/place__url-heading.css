@@ -9,7 +9,7 @@
   font-weight: 400;
 }
 
-@media screen and (max-width: 1023px) and (min-width: 768px) {
+@media screen and (max-width: 1023px) {
   .place__url-heading {
     line-height: 1;
   }

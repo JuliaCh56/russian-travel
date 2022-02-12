@@ -15,10 +15,11 @@
 
 @media screen and (min-width: 1280px) {
   .place {
-  grid-template-columns: 1fr fit-content(484px);
-  padding-right: calc(148/1280*100%);
-  padding-left: calc(148/1280*100%);
-  column-gap: 40px;
+    grid-template-columns: 1fr fit-content(484px);
+    padding-right: calc(148/1280*100%);
+    padding-left: calc(148/1280*100%);
+    padding-bottom: 80px;
+    column-gap: 40px;
   }
 }
 
@@ -32,13 +33,13 @@
   }
 }
 
-@media screen and (max-width: 767px) and (min-width: 451px) {
+/* @media screen and (max-width: 767px) and (min-width: 480px) {
   .place {
     grid-template-columns: 1fr;
     }
-}
+} */
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 767px) {
   .place {
     grid-template-areas:
     "title"
